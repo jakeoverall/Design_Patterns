@@ -292,11 +292,6 @@ The Factory pattern is used when creating one of many possible classes that all 
 				CreateEnemy();
 			}
 		}
-
-		private static EnemyTypes NewMethod(int enemySelection)
-		{
-			return (EnemyTypes)enemySelection;
-		}
 	}
 
 	public class Program
