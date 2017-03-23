@@ -42,6 +42,8 @@ Before diving to far into the many design patterns we should ensure we understan
   
   To illustrate this let's talk about how some animals have the ability to fly while others do not. The major benefit of the Strategy pattern is the ability to choose an implementation of a behavior and creat new implementations without modifying existing code. One drawback to the strategy pattern is it increases the total number of classes in a project. 
   
+> Consistent interface with variable behavior - Jamie Lacivita
+  
   ```csharp
   public interface IFly
   {
