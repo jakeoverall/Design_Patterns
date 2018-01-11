@@ -311,4 +311,28 @@ The Factory pattern is used when creating one of many possible classes that all 
 	}
 ```
 
+### Singleton Pattern
+
+The singleton pattern is one of the best-known patterns in software engineering. Essentially, a singleton is a class which only allows a single instance of itself to be created, and usually gives simple access to that instance.
+
+- When to use it?
+ - Exactly one instance of a class is required.
+ - Controlled access to a single object is necessary.
+
+```csharp
+public sealed class Singleton
+{
+    private static readonly Lazy<Singleton> lazy =
+        new Lazy<Singleton>(() => new Singleton());
+    
+    public static Singleton Instance { get { return lazy.Value; } }
+
+    private Singleton()
+    {
+    }
+}
+```
+
+
+
   
