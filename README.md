@@ -25,6 +25,12 @@ Before diving to far into the many design patterns we should ensure we understan
     {
       Console.WriteLine(Name + " is eating.");
     }
+    public Animal(string name, double height, double weight)
+    {
+      Name = name;
+      Height = height;
+      Weight = weight;
+    }
   }
   
   public class Dog : Animal
@@ -34,6 +40,9 @@ Before diving to far into the many design patterns we should ensure we understan
       //The Name Variable is Inherited from the Animal Class
       Console.WriteLine(Name + " is digging.");
     }
+    
+    public Dog(string name, double height, double weight):base(name, height, weight){}
+    
   }
   ```
   
