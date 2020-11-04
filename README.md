@@ -2,7 +2,7 @@
 
 
 ### Inheritance & Encapsulation
-Before diving to far into the many design patterns we should ensure we understand some of the basic concepts of inheritance and encapsulation. 
+Before diving too far into the many design patterns, we should ensure we understand some of the basic concepts of inheritance and encapsulation. 
 
 - Inheritance Rules 
   - Should a class inherit from another?
@@ -47,9 +47,9 @@ Before diving to far into the many design patterns we should ensure we understan
   ```
   
   ### Strategy Pattern
-  The Strategy Pattern forces encapsulated strategies to implement a paticular set of rules. Stategies can be swapped as necessary or appropriate. New Strategies can be defined and will be forced to implement all of the necessary rules to be a valid stategy.
+  The Strategy Pattern forces encapsulated strategies to implement a particular set of rules. Strategies can be swapped as necessary or appropriate. New Strategies can be defined and will be forced to implement all of the necessary rules to be a valid stategy.
   
-  To illustrate this let's talk about how some animals have the ability to fly while others do not. The major benefit of the Strategy pattern is the ability to choose an implementation of a behavior and creat new implementations without modifying existing code. One drawback to the strategy pattern is it increases the total number of classes in a project. 
+  To illustrate this, let's talk about how some animals have the ability to fly while others do not. The major benefit of the Strategy pattern is the ability to choose an implementation of a behavior and create new implementations without modifying existing code. One drawback to the strategy pattern is it increases the total number of classes in a project. 
   
 > Consistent interface with variable behavior - Jamie Lacivita
   
